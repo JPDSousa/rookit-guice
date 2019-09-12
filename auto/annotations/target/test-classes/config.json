@@ -1,0 +1,6 @@
+{
+  "guice": {
+    "basePackage": "guice",
+    "propertyPackage": "just.a.simple.pack"
+  }
+}

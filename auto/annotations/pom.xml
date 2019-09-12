@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>auto</artifactId>
+        <groupId>com.github.JPDSousa.rookit-guice</groupId>
+        <version>-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>auto-annotations</artifactId>
+    <name>Rookit Guice Auto Annotations</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>${rookit.group}.rookit-auto</groupId>
+            <artifactId>lib</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${rookit.group}.rookit-auto</groupId>
+            <artifactId>javax-lib</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${rookit.group}.rookit-auto</groupId>
+            <artifactId>source-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${rookit.group}.rookit-auto</groupId>
+            <artifactId>source-javapoet-lib</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${rookit.group}.rookit-auto</groupId>
+            <artifactId>source-lib</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${rookit.group}.rookit-failsafe</groupId>
+            <artifactId>lib</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${rookit.group}.rookit-guice</groupId>
+            <artifactId>auto-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${rookit.group}.rookit-guice</groupId>
+            <artifactId>auto-lib</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${rookit.group}.rookit-io</groupId>
+            <artifactId>lib</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${rookit.group}.rookit-io</groupId>
+            <artifactId>path-lib</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${rookit.group}.rookit-serializer</groupId>
+            <artifactId>bundle</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>${rookit.group}.rookit-utils</groupId>
+            <artifactId>lib</artifactId>
+        </dependency>
+
+        <!-- Test Dependencies -->
+        <dependency>
+            <groupId>${rookit.group}.rookit-auto</groupId>
+            <artifactId>test</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>

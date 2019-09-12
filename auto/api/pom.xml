@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>auto</artifactId>
+        <groupId>com.github.JPDSousa.rookit-guice</groupId>
+        <version>-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>auto-api</artifactId>
+    <name>Rookit Guice Auto API</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>${rookit.group}.rookit-auto</groupId>
+            <artifactId>api</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>

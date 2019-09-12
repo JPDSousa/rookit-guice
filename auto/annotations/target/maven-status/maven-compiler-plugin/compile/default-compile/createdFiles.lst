@@ -1,0 +1,10 @@
+org\rookit\guice\auto\annotation\SourceModule.class
+org\rookit\guice\auto\annotation\GuiceProcessor.class
+org\rookit\guice\auto\annotation\type\TypeModule.class
+org\rookit\guice\auto\annotation\config\GuiceConfigImpl.class
+org\rookit\guice\auto\annotation\EmptyBody.class
+org\rookit\guice\auto\annotation\type\AnnotationExtractionFunction.class
+org\rookit\guice\auto\annotation\type\TypeModule$1.class
+org\rookit\guice\auto\annotation\BindingAnnotationGenerator.class
+org\rookit\guice\auto\annotation\config\ConfigurationModule.class
+META-INF\services\javax.annotation.processing.Processor
